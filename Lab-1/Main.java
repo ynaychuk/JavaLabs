@@ -4,16 +4,16 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         Drugs empty = new Drugs();
-        Drugs Drugs = new Drugs("Alba", "Hormones",
+        Drugs Alba = new Drugs("Alba", "Hormones",
                 "OmniFarma", new Date(2018, 6, 26),208 );
-        Drugs inception = new Drugs("Pharingosept", "Throttle",
+        Drugs Pharingosept = new Drugs("Pharingosept", "Throttle",
                 "S.C. Terapia S.A.", new Date(2020, 7, 8), 15);
 
         System.out.println(empty.toString());
-        System.out.println(Drugs.toString());
-        System.out.println(inception.toString());
+        System.out.println(Alba.toString());
+        System.out.println(Pharingosept.toString());
 
-        inception.printSum();
+        Pharingosept.printSum();
         Drugs.printStaticSum();
 
         empty.resetValues("Loratadine ", "Dermatitis", "Parmak",
