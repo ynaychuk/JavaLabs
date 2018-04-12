@@ -1,5 +1,3 @@
-package ua.lviv.iot;
-
 import java.util.Date;
 
 public class Drugs {
